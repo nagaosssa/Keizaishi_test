@@ -50,12 +50,13 @@
                     <p class="font-light">ばんざわ先生 担当範囲</p>
                 </button>
             </div>
-            <div class="mt-8">
-                            <a href="https://boisterous-frangollo-4dbe78.netlify.app/" class="inline-block bg-gray-200 text-gray-700 px-6 py-3 rounded-lg hover:bg-gray-300 transition">
-                                &larr; 学習ノートに戻る
-                            </a>
-                        </div>
-                        <button id="show-api-key-modal-btn" class="mt-4 text-sm text-gray-500 hover:text-blue-600 underline">APIキー設定</button>        </div>
+             <div class="mt-8">
+                <a href="https://boisterous-frangollo-4dbe78.netlify.app/" class="inline-block bg-gray-200 text-gray-700 px-6 py-3 rounded-lg hover:bg-gray-300 transition">
+                    &larr; 学習ノートに戻る
+                </a>
+            </div>
+            <button id="show-api-key-modal-btn" class="mt-4 text-sm text-gray-500 hover:text-blue-600 underline">APIキー設定</button>
+        </div>
 
         <!-- Test Screen -->
         <div id="test-screen" class="screen">
@@ -122,7 +123,7 @@
         // --- LECTURE NOTES DATA ---
         const lectureNotes = {
             japanese: `
-                大阪大学経済学部 経済史（廣田）講義資料１  
+              大阪大学経済学部 経済史（廣田）講義資料１  
                 大阪大学経済学部 経済史（廣田） 
                 講義資料１ 
                 本講義の対象 
@@ -2838,7 +2839,7 @@
                 一方、東アジアでは工業化の普及も(日本を先頭とする雁行形
                 態）
                 ・・・国際市場の統合進む ／「近代世界システム」における覇
-                権国イギリス
+                権国イギリス            
             `
         };
         
@@ -3063,6 +3064,7 @@ ${answerText}
 
 1.  **採点 (score)**:
     - 学生の解答を0点から100点満点で採点してください。
+    - **重要**: 採点にあたっては、厳しすぎず、講義内容の要点を理解している学生が70点から80点程度の得点を得られるような、公平かつ建設的な評価を心がけてください。完璧な解答でなくとも、核となる概念を捉えられていれば積極的に評価してください。
     - 採点は、講義資料の内容とどれだけ合致しているか、重要なキーワードや因果関係が正しく説明できているかに基づいて厳密に行ってください。講義資料にない記述は評価しないでください。
 
 2.  **総評 (feedback)**:
